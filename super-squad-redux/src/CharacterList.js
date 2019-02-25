@@ -28,8 +28,8 @@ class CharacterList extends Component {
     );
   }
 }
-
-//mapStateToProps will take the redux state and map it to the props obj in our component
+//CONNECT...............has 2 methods...
+//1. mapStateToProps will take the redux state and map it to the props obj in our component
 //so that we can access store in our component
 function mapStateToProps(state){
     return {
@@ -44,7 +44,7 @@ function mapStateToProps(state){
 // function mapDispatchToProps(dispatch){
 //     return bindActionCreators({addCharacterById},dispatch)
 // }
-//it will return
+
 
 //connect used to use data from the store within this component 
 //CONNECT function returns another function for us to call as a result.. in that returned function we have to pass the componenent (ie CharacterList) that we

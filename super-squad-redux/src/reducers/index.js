@@ -1,6 +1,5 @@
 //our first job is to create a reducer.
 //once we have reducers we have to set up the store......
-//we have to import actions here from actions...
 
 //now as we have two reducers here we have to listen to both of em to do that we have to use combined-reducer function from redux
 import {combineReducers} from 'redux'
